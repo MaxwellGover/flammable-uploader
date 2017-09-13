@@ -1,0 +1,83 @@
+.Upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Upload__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 2px solid #FF1439;
+  color: #FF1439;
+  height: 40px;
+  width: 280px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.Upload__button-disabled {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 2px solid #A9A9A9;
+  color: #A9A9A9;
+  height: 40px;
+  width: 280px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 40px;
+  cursor: default;
+}
+
+.Upload__input {
+  display: none;
+}
+
+.s-alert-error {
+  background: #FF2323;
+  color: #800000;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/*
+ * react-circular-progressbar styles
+ *
+ * All of the styles in this file are optional and configurable!
+ */
+
+.CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   *
+   * If you're not using "display: flex", you can remove this style.
+   */
+  width: 100%;
+  height: 180px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #FF1439;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #141414;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #FF1439;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}

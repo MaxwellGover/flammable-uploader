@@ -1,0 +1,61 @@
+.UploadsList__uploads-list {
+  border-radius: 0px;
+  background: #000;
+}
+
+.UploadsList__list-item {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px;
+  background: #141414;
+  color: #fff;
+  padding: 20px;
+}
+
+.UploadsList__delete-icon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.modal-content {
+
+}
+
+.UploadsList__remove-song-text {
+  color: #000;
+  font-size: 18px;
+}
+
+.UploadsList__modal-button:hover {
+  cursor: pointer;
+}
+
+.UploadsList__alert {
+  border: 2px solid #000;
+  background: #141414;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.s-alert-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00C851;
+  color: #fff;
+  border-radius: 2px;
+  height: 30px;
+  width: 300px;
+}
+
+.s-alert-top-right {
+  top: 20px;
+  right: 20px;
+  bottom: auto;
+  left: auto;
+}
+
+.s-alert-close {
+  display: none
+}
